@@ -63,6 +63,13 @@ export class StaticDataSource {
     ),
     new Product(9, 'Flower Pink EDT 100 ml', 'Category 2', 'Othmani roses', 99),
     new Product(10, 'Musk EDC 59 ml', 'Category 2', 'Musk EDc 59 ml', 88),
+    new Product(
+      11,
+      'Shampoo',
+      'Category 3',
+      'This is high quality shampoo',
+      15
+    ),
   ];
 
   getProducts(): Observable<Product[]> {
